@@ -4,6 +4,7 @@ margin: 0% !important;
 box-sizing: border-box !important;
 text-decoration: none !important;
 font-family: 'Rubik', sans-serif;
+flex-wrap: wrap;
 
 }
 .navbar{
@@ -46,7 +47,8 @@ justify-content:start;
 }
 .flex h5{
     color: green;
-   
+ width: auto;
+ height: auto;
 }
 .frist{
     margin: 5px;
@@ -174,5 +176,22 @@ margin: 5px !important;
         margin: 15px !important;
         padding: 65px;
         display: flex !important;
-        justify-content: start;
+        justify-content: start !important;
+        position: relative;
+       }
+       .five-s{
+        position: relative !important;
+       }
+       .p{
+        position: absolute;
+        margin: 9px !important;
+        padding: 6px !important;
+        color: white;
+       }
+       .p button{
+        background-color: initial;
+        margin: 15px !important;
+        padding: 6px;
+        color: white;
+        
        }
