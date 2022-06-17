@@ -3,8 +3,8 @@ border: 0% !important;
 margin: 0% !important;
 box-sizing: border-box !important;
 text-decoration: none !important;
-font-family: 'Rubik', sans-serif;
-flex-wrap: wrap;
+
+flex-wrap: wrap !important;
 
 }
 .navbar{
@@ -34,6 +34,8 @@ flex-wrap: wrap;
     height: 100vh;
 display: flex; 
 justify-content:start;
+background-size: cover;
+
 
 }
 
@@ -45,11 +47,7 @@ justify-content:start;
 .flex h2{
     color: green;
 }
-.flex h5{
-    color: green;
- width: auto;
- height: auto;
-}
+
 .frist{
     margin: 5px;
     padding: 6px;
@@ -96,6 +94,11 @@ border: none;
       .basket{
         color: green;
         text-decoration: none;
+        background-color: rgb(232, 246, 234);
+        border-radius: 63%;
+        width: 176%;
+        text-align: center;
+        
        }
        .basket a{
           color: green;
@@ -195,3 +198,13 @@ margin: 5px !important;
         color: white;
         
        }
+       @media screen and (max-width: 600px)  {
+        .row{
+            justify-content: center;
+        }
+      }
+      @media screen and (max-width: 900px)  {
+        .row{
+            justify-content: center;
+        }
+      }
