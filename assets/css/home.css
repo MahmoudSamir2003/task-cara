@@ -8,7 +8,9 @@ flex-wrap: wrap !important;
 
 }
 .navbar{
-    background-color: rgb(205, 212, 248) !important ;
+    background-color: rgb(227, 230, 243) !important ;
+    padding-bottom: 0% !important;
+    margin-bottom: 0% !important;
    
     
 }
@@ -91,12 +93,16 @@ border: none;
     border-radius: 1rem;
     width: 250px;
       }
+     .basket-1{
+      text-align: center;
+      justify-content: center;
+     }
       .basket{
         color: green;
         text-decoration: none;
         background-color: rgb(232, 246, 234);
         border-radius: 63%;
-        width: 176%;
+        width: 179%;
         text-align: center;
         
        }
