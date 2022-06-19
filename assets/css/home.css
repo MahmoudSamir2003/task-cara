@@ -53,16 +53,20 @@ background-size: cover;
 .frist{
     margin: 5px;
     padding: 6px;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .row{
  
-    row-gap:1px; 
+    row-gap:5px !important; 
+    margin: 7px;
+    column-gap: 6px;
  }
 .card{
-    width: 250px;
+    width: 80px;
     padding:20px !important;
-    margin:15px !important;
+    margin:.4px !important;
 }
 .frist button{
 border: none;
