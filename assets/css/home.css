@@ -33,12 +33,20 @@ flex-wrap: wrap !important;
 .frist-section{
     background-image: url("../images/hero4.png");
     width: 100%;
-    height: 100vh;
+    height: 99vh;
 display: flex; 
 justify-content:start;
 background-size: cover;
 
 
+}
+.position{
+  position: relative;
+}
+.position h5{
+  position: absolute;
+  top: 14%;
+  left: 25%;
 }
 
 .flex{
@@ -60,15 +68,23 @@ background-size: cover;
 
 .row{
  
-    row-gap:5px !important; 
-    margin: 7px;
-    column-gap: 6px;
+    justify-content: space-evenly;
+    margin: 12px !important;
+    column-gap: 16px;
+    row-gap: 10px !important;
  }
 .card{
     width: 80px;
     padding:20px !important;
     margin:.4px !important;
+    border-radius: 1rem;
 }
+/* .card img{
+  width: 260px;;
+  justify-content: center;
+  display: flex;
+  
+} */
 .frist button{
 border: none;
 }
@@ -98,7 +114,7 @@ border: none;
     border-radius: 1rem;
     width: 250px;
       }
-     .basket-1{
+      .basket-1{
       text-align: center;
       justify-content: center;
      }
@@ -116,16 +132,14 @@ border: none;
        }
        .star {
         
-       color: yellow;
+       color: rgb(243, 181, 25);
        display: flex;
        flex-direction: row;
        justify-content: left;
        }
        .star-1{
           display: flex;
-          flex-direction: row;
-          justify-content: stretch;
-     
+          flex-direction: row;   
        }
        .basket-1{
           float:right;
@@ -164,9 +178,10 @@ margin: 5px !important;
    
      }
      .s-2{
-        color: white;
-        margin: 5px !important;
-
+      padding-top: 81px;
+      color: white;
+      margin: 10px !important;
+      width: 100%;
      }
      .s-2 h4{
      display:inline ;
@@ -184,34 +199,52 @@ margin: 5px !important;
        height: 10px;
        display: flex;
        margin: 5px !important;
-
-       justify-content: center;}
-       .five{
-        margin: 15px !important;
-        padding: 65px;
-        display: flex !important;
-        justify-content: start !important;
-        position: relative;
+   justify-content: center;
+  }        
+  .hm{
+    width: 106px;
+    height: 33px;
+  }
+     .div-img{
+      position: relative;
+     }    
+  .one-img{
+      
+         color: white;
+         width: 39%;
+         height: 40vh;
+         
+         padding: 21px;
        }
-       .five-s{
-        position: relative !important;
-       }
-       .p{
-        position: absolute;
-        margin: 9px !important;
-        padding: 6px !important;
-        color: white;
-       }
-       .p button{
+       .title-img button{
         background-color: initial;
-        margin: 15px !important;
-        padding: 6px;
+        border-color: white;
         color: white;
+       }
+       .title-img{
+       position: absolute;
+       left:150px;
+       color: white;
+    top: 29px;
+       }
+       .tow-img{
         
+        color: white;
+        width: 39%;
+        height: 40vh;
+        
+        padding: 21px;
+       }
+       .title-test{
+        position: absolute;
+        left: 190px;
        }
        @media screen and (max-width: 600px)  {
         .row{
             justify-content: center;
+        }
+        .one-img{
+          display: block;
         }
       }
       @media screen and (max-width: 900px)  {
