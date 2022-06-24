@@ -65,7 +65,27 @@ background-size: cover;
     flex-wrap: wrap;
     justify-content: center;
 }
-
+.border{
+ 
+  margin:3px !important;
+  border: 30% ;
+  background-color: rgb(255, 255, 255) !important;
+ 
+}
+ 
+.border img{
+width: 240px;
+display: block !important;
+}
+.save{
+  border: none ;
+  display: flex;
+  justify-content: center;
+}
+.save button{
+  border: none;
+  width: 165px;
+}
 .row{
  
     justify-content: space-evenly;
@@ -85,9 +105,7 @@ background-size: cover;
   display: flex;
   
 } */
-.frist button{
-border: none;
-}
+
 .b2{
     background-color: rgb(205, 235, 188) !important;
   }
@@ -204,8 +222,8 @@ margin: 5px !important;
   .hm{
     width: 106px;
     height: 33px;
-  }
-     .div-img{
+   }
+   /*  .div-img{
       position: relative;
      }    
   .one-img{
@@ -234,11 +252,8 @@ margin: 5px !important;
         height: 40vh;
         
         padding: 21px;
-       }
-       .title-test{
-        position: absolute;
-        left: 190px;
-       }
+       } */
+  
        @media screen and (max-width: 600px)  {
         .row{
             justify-content: center;
