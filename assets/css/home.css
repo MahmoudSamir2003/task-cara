@@ -17,7 +17,6 @@ flex-wrap: wrap !important;
 .navbar-nav :hover  {
      text-decoration: underline !important;
     color: green !important;
-    transition:  .5s !important;
 }
 .active{
     text-decoration: underline !important;
@@ -198,7 +197,7 @@ margin: 5px !important;
       padding-top: 81px;
       color: white;
       margin: 10px !important;
-      width: 100%;
+      
      }
      .s-2 h4{
      display:inline ;
@@ -222,36 +221,7 @@ margin: 5px !important;
     width: 106px;
     height: 33px;
    }
-   /*  .div-img{
-      position: relative;
-     }    
-  .one-img{
-      
-         color: white;
-         width: 39%;
-         height: 40vh;
-         
-         padding: 21px;
-       }
-       .title-img button{
-        background-color: initial;
-        border-color: white;
-        color: white;
-       }
-       .title-img{
-       position: absolute;
-       left:150px;
-       color: white;
-    top: 29px;
-       }
-       .tow-img{
-        
-        color: white;
-        width: 39%;
-        height: 40vh;
-        
-        padding: 21px;
-       } */
+  
   
        @media screen and(max-width: 300px) and(max-width: 600px) {
         .row{
@@ -268,6 +238,9 @@ margin: 5px !important;
         .frist-section{
           background-image: none !important;
           background-color: rgb(227, 230, 243);
+        }
+        .flex{
+          margin: 0% !important;
         }
        
        
