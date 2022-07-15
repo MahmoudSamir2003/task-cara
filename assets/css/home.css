@@ -75,6 +75,7 @@ background-size: cover;
 .border img{
 width:200px;
 display: block !important;
+
 }
 .save{
   border: none ;
@@ -220,9 +221,7 @@ margin: 5px !important;
   .hm{
     width: 106px;
     height: 33px;
-   }
-  
-  
+   }  
        @media screen and(max-width: 300px) and(max-width: 600px) {
         .row{
             justify-content: center;
@@ -243,7 +242,13 @@ margin: 5px !important;
           margin: 0% !important;
         }
        
-       
+     
+      }
+      @media screen   and (max-width: 912px)  {
+        .border img {
+          width: 231px !important;
+          display: block !important;
       }
    
+    }
   
