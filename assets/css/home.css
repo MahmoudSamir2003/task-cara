@@ -158,6 +158,9 @@ display: block !important;
           display: flex;
           flex-direction: row;   
        }
+       .star :hover{
+        transform: scale(1.1);
+       }
        .basket-1{
           float:right;
          text-decoration: none;
