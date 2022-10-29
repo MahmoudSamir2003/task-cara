@@ -22,13 +22,15 @@ flex-wrap: wrap !important;
     text-decoration: underline !important;
     color: green !important;
     }
-.btn{
-    font-size: 10px;
-    padding: 6px;
-    margin: 2;
-    line-height: 4px;
-  
+ .bask .btn{
+    font-size: 15px;
+    padding: 4px;
+    margin: -2px !important;
+    line-height: 5px;
 }
+
+  
+
 .frist-section{
     background-image: url("../images/hero4.png");
     width: 100%;
@@ -225,12 +227,87 @@ margin: 5px !important;
     width: 106px;
     height: 33px;
    }  
+   /* .div-img{
+    display: flex;
+    justify-content:space-evenly;
+   
+   }
+   .one-img {
+    background-image: url("../images/b17.jpg");
+    width: 500px;
+    height: 290px;
+    background-size: cover;
+    padding: 30px;
+   }
+   .tow-img{
+    background-image: url("../images/b10.jpg");
+    width: 500px;
+    height: 290px;
+    background-size: cover;
+    padding: 30px;
+   }
+   .one-img p{
+    color: white;
+   }
+   .one-img h2{
+    color: white;
+   }
+   .one-img button{
+    background-color: inherit;
+    color: white;
+    border-color: white;
+   }
+   .tow-img p{
+    color: white;
+   }
+   .tow-img h2{
+    color: white;
+   }
+   .tow-img button{
+    background-color:initial;
+    color: white;
+    border-color: white;
+   }
+   .div-tow-img{
+    display: flex;
+    justify-content: space-evenly;
+   }
+   .three-img{
+    background-image: url("../images/b7.jpg");
+    width: 506px;
+    height: 201px;
+    background-size: cover;
+    padding: 35px;
+   }
+   .three-img h2{
+    color: white;
+   }
+   .three-img p{
+    color: red;
+   }
+   .for-img{
+    background-image: url("../images/b4.jpg");
+    width: 506px;
+    height: 201px;
+    background-size: cover;
+    padding: 20px;
+   }
+   .for-img h4{
+    color: white;
+   }
+   .for-img p{
+    color: red;
+   } */
        @media screen and(max-width: 300px) and(max-width: 600px) {
         .row{
             justify-content: center;
         }
         .frist-section{
           background-image: none !important;
+        }
+        .bask a{
+            margin-left: -29px !important;
+        
         }
       }
       @media screen   and (max-width: 900px)  {
